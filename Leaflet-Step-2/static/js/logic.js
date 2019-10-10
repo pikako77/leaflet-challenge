@@ -29,10 +29,6 @@ switch (coord_opt) {
         coord = world_coord;
         zoom = world_zoom;
         break;
-
-
-
-
 };
 
 
