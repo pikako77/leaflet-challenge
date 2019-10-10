@@ -51,9 +51,23 @@ d3.json(link, function (data) {
 
     // Grab plate data
  let plateBoundary = new L.LayerGroup();
+
  d3.json(plateLink, function(plateData){
     //L.geoJson(plateData).addTo(map);
-    L.geoJson(plateData).addTo(plateBoundary);
+
+    function styleInfoPlate(feature) {
+        return {
+            opacity: 1,
+            fillOpacity: 1,
+            fillColor: 'grey',
+            color: "grey",
+            weight: 2.5
+        };
+    }
+    
+    L.geoJson(plateData, {
+        style: styleInfoPlate
+    }).addTo(plateBoundary);
  });
  
  let earthquake = new L.LayerGroup();
