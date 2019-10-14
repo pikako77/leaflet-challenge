@@ -1,10 +1,10 @@
-var coord_opt = "US"; // "US", "JP", "world"
+var coord_opt = "JP"; // "US", "JP", "world"
 
 let US_coord = [40, -100];
 let US_zoom = 3;
 
-let JP_coord = [36, 138];
-let JP_zoom = 4;
+let JP_coord = [37.5, 138];
+let JP_zoom = 5;
 
 let world_coord = [0, 0];
 let world_zoom = 2;
