@@ -9,11 +9,11 @@ Data are provided by [United States Geological Survey](https://www.usgs.gov/) (U
 
 ## Methodology
 Data are vizualized using [Leaflet](https://leafletjs.com/examples.html).<br>
-![step1](Images/Step1.PNG)
-
-
 Main webpage is built in [index.html](../Leaflet-Step-2/index.html). The "logic" part is built in [JavaScript](../Leaflet-Step-2/static/js/logic.js).<br>
-First, we built a map with only the earthquakes data and the legend.<br>
+
+First, we built a map with only the earthquakes data and the legend.
+![step1](Images/Step1.PNG)
+<br>
 Then, we built the final version with the "satellite", "GrayScale" and "Outdoors" views. We added "Plate Boundary" option to visuzalize that earthquakes are mainly occuring at the plate limits.
 Plate data are provided by https://github.com/fraxen/tectonicplates.
 
